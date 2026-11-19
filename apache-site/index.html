@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RIYAN DIGITAL STUDIO</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#110b22;
+ color:white;
+}
+header{
+ padding:25px 8%;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ background:#1b1031;
+}
+.logo{font-size:24px;font-weight:bold;color:#fb923c}
+header a{color:white;text-decoration:none;margin-left:20px}
+.hero{
+ text-align:center;
+ padding:110px 20px;
+ background:radial-gradient(circle at 70% 20%,#6b21a8,#110b22 65%);
+}
+h1{font-size:clamp(35px,6vw,65px)}
+span{color:#fb923c}
+p{color:#cbd5e1;line-height:1.7}
+.btn{
+ display:inline-block;
+ padding:15px 30px;
+ margin-top:20px;
+ background:linear-gradient(90deg,#9333ea,#ea580c);
+ border-radius:12px;
+ color:white;
+ text-decoration:none;
+}
+section{padding:65px 8%;text-align:center}
+.projects{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:25px;
+ margin-top:35px;
+}
+.card{
+ padding:40px 20px;
+ background:#25183e;
+ border:1px solid #553579;
+ border-radius:18px;
+}
+.card h3{color:#fb923c}
+footer{padding:25px;text-align:center;background:#1b1031}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">RIYAN DIGITAL STUDIO</div>
+<div>Creative Digital Solutions</div>
+</header>
+<div class="hero">
+<p>CREATIVE DIGITAL EXPERIENCES</p>
+<h1>Designing the <span>Digital Future.</span></h1>
+<p>Web Development, UI/UX Design and Cloud Solutions</p>
+<a class="btn" href="#projects">Explore Projects</a>
+</div>
+<section id="projects">
+<h2>Our Expertise</h2>
+<div class="projects">
+<div class="card"><h3>Web Development</h3><p>Modern responsive websites.</p></div>
+<div class="card"><h3>UI/UX Design</h3><p>Creative user-friendly interfaces.</p></div>
+<div class="card"><h3>Cloud Deployment</h3><p>Reliable cloud applications.</p></div>
+</div>
+</section>
+<footer>© 2026 RIYAN DIGITAL STUDIO | AWS Internship</footer>
+</body>
+</html>
